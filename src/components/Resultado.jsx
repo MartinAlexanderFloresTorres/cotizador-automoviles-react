@@ -37,9 +37,9 @@ function Resultado() {
         <span className="font-bold text-gray-500">Año del auto: </span>
         {yearRef.current}
       </p>
-      <p className="my-2 text-2xl">
+      <p className="my-2 md:text-2xl">
         <span className="font-bold text-blue-500">Total Cotización: </span>
-        {resultado} Soles
+        {resultado}
       </p>
     </div>
   );
